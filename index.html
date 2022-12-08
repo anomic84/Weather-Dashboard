@@ -33,7 +33,7 @@
                         <button class="my-1 w-100 btn bg-primary text-light" id="search-button">Search</button>
                     </div>
                     <!-- Search History -->
-                    <ul class="list-group row"></ul>
+                    <ul id="searched-cities" class="list-group row"></ul>
                 </div>
                 <!-- Section below for past searches to show up -->
 
@@ -42,48 +42,48 @@
             <div class="container col-9 border border-warning">
                 <!-- Row 1 is Current Temp link to Jquery -->
                 <div class="div border border-dark">
-                    <h3 class="row m-1">Baconstalk</h3>
-                    <p class="row text-size-1 m-1">Temp:<span class="current" id="temp"></span> </p>
-                    <p class="row text-size-1 m-1">Wind:<span class="current" id="wind"></span> </p>
-                    <p class="row text-size-1 m-1">Humidity:<span class="current" id="humid"></span> </p>
+                    <h3 id="current-city" class="row m-1">Baconstalk</h3>
+                    <p id="current-temp" class="row text-size-1 m-1">Temp:<span class="current" id="temp"></span> </p>
+                    <p id="current-wind" class="row text-size-1 m-1">Wind:<span class="current" id="wind"></span> </p>
+                    <p id="current-humid" class="row text-size-1 m-1">Humidity:<span class="current" id="humid"></span> </p>
                 </div>
 
                 <!-- Row 2 is 5day forcast -->
                 <div class="col-sm-12" id="futureweather">
-                    <h3>5-Day Forecast</h3>
+                    <h3>5-Day Forecast:</h3>
                     <div class="containter row">
                         <!-- each will be its own 5 day card in a col -->
                         <div class="flex border border-warning removelr g-2">
                             <div class="bg-secondary flex-item text-light border border-warning ">
-                                <h5 class="">9/14/2022</h5>
+                                <h5 id="day2" class="">9/14/2022</h5>
                                 <p><i class="bi-sun"></i></p>
                                 <p>Temp:<span class="future1" id="temp"></span></p>
                                 <p>Wind:<span class="future1" id="wind"></span></p>
                                 <p>Humidity:<span class="future1" id="humid"></span></p>
                             </div>
                             <div class="bg-secondary flex-item text-light">
-                                <h5 class="">9/14/2022</h5>
+                                <h5 id="day3" class="">9/14/2022</h5>
                                 <p class=""><i class="bi-sun"></i></p>
                                 <p class="">Temp:<span class="future1" id="temp"></span></p>
                                 <p class="">Wind:<span class="future1" id="wind"></span></p>
                                 <p class="">Humidity:<span class="future1" id="humid"></span></p>
                             </div>
                             <div class="bg-secondary flex-item text-light">
-                                <h5 class="">9/14/2022</h5>
+                                <h5 id="day4" class="">9/14/2022</h5>
                                 <p class=""><i class="bi-sun"></i></p>
                                 <p class="">Temp:<span class="future1" id="temp"></span></p>
                                 <p class="">Wind:<span class="future1" id="wind"></span></p>
                                 <p class="">Humidity:<span class="future1" id="humid"></span></p>
                             </div>
                             <div class="bg-secondary flex-item text-light ">
-                                <h5 class="">9/14/2022</h5>
+                                <h5 id="day5" class="">9/14/2022</h5>
                                 <p class=""><i class="bi-sun"></i></p>
                                 <p class="">Temp:<span class="future1" id="temp"></span></p>
                                 <p class="">Wind:<span class="future1" id="wind"></span></p>
                                 <p class="">Humidity:<span class="future1" id="humid"></span></p>
                             </div>
                             <div class="bg-secondary flex-item text-light">
-                                <h5 class="">9/14/2022</h5>
+                                <h5 id="day6" class="">9/14/2022</h5>
                                 <p class=""><i class="bi-sun"></i></p>
                                 <p class="">Temp:<span class="future1" id="temp"></span></p>
                                 <p class="">Wind:<span class="future1" id="wind"></span></p>
