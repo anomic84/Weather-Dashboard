@@ -1,1 +1,19 @@
+.removelr {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 
+.maxwidth {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    gap: 5px;
+}
+
+.flex-item {
+    flex: 1;
+    font-size: 12px;
+    padding-left: 5px;
+}
