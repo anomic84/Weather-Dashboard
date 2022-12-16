@@ -12,7 +12,7 @@ Javascript 5 day forcast
 Shows temperature, wind speeds, and humidity when user searches a city, inluding a full 5 day forcast. 
 
 ## Website
-[JavaScript Work Day Scheduler](https://anomic84.github.io/week6ch/)
+[JavaScript Weather Dashboard](https://anomic84.github.io/week6ch/)
 
 ## Screenshots
 ![Scheduler Screenshot](WeatherDashboard.png)
