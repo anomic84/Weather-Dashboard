@@ -16,7 +16,7 @@ Shows temperature, wind speeds, and humidity when user searches a city, inluding
 /)
 
 ## Screenshots
-![Scheduler Screenshot](WeatherDashboard)
+![Scheduler Screenshot](WeatherDashboard.png)
 
 ## Code 
 * HTML
